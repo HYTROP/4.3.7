@@ -1,0 +1,127 @@
+#app {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  width: 661px;
+  height: 763px;
+  background: #c4c4c4;
+}
+
+.wrapp {
+  position: relative;
+  display: flex;
+  top: 10%;
+  left: 13%;
+  width: 503px;
+  height: 350px;
+  margin-bottom: 40px;
+  background-color: #C4C4C4;
+}
+
+.search-input,
+input {
+  width: 500px;
+  height: 61px;
+
+  background: #FFF;
+
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+input {
+  padding-left: 10px;
+}
+
+.search-input .autocomp-box {
+  background-color: #fff;
+
+}
+
+#autocompleteList ul {
+  width: 500px;
+  height: 44px;
+  padding-left: 10px;
+  list-style: none;
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 2px solid #000;
+  background: #E3E3E3;
+}
+
+#autocompleteList li {
+  width: 500px;
+  height: 44px;
+  padding-left: 10px;
+  list-style: none;
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 2px solid #000;
+  background: #E3E3E3;
+}
+
+#autocompleteList li:hover {
+  border: 2px solid #000;
+  background: #65CDF9;
+}
+
+#repositoryList ul {
+  position: relative;
+  top: 20%;
+  left: 13%;
+
+  width: 503px;
+  height: 101px;
+
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 1px solid #000;
+  background: #E27BEB;
+}
+
+#repositoryList {
+  max-height: 303px;
+  overflow-y: scroll;
+
+}
+
+ul>li {
+  padding-left: 10px;
+  padding-top: 3px;
+  width: 405px;
+}
+
+button {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 60px;
+  height: 55px;
+  border: none;
+  background: none;
+}
+
+.img-btn {
+  width: 52px;
+  height: 42px;
+}
